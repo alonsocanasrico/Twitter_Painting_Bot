@@ -2,10 +2,11 @@ import tweepy
 
 print('Starting...')
 
-CONSUMER_KEY = "gezQVCTe8KCBqDi2bp7XuH8Hg"
-CONSUMER_SECRET = "7dXPWFXILhrtnrrTNISED2q9mkWfNhGCNHAsbsogPsspvYQMzZ"
-ACCESS_KEY = "1156250615128965125-AidegdgdMf8w7GycYUj4IpqRqCI5i4"
-ACCESS_SECRET = "5R8IZSE9Sbcfc6ZiJJbbVcvf9dPudYv8cc7BoyAVwi0IX"
+# Aquí se deben poner las credenciales de la cuenta
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_KEY = ""
+ACCESS_SECRET = ""
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
